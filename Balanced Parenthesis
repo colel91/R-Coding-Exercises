@@ -1,3 +1,14 @@
+
+Problem - Determine whether or not parenthesis match in the proper order from inside to outside. 
+The parenthesis included are {} () []
+
+Examples:
+True - ()()()
+FALSE - {}()[
+TRUE - ({[][]})
+FALSE {{{(})]]
+
+
 #Base r is all that is needed
 library(base)
 
@@ -32,4 +43,4 @@ paren <- gsub('[[:space:]]',"",paren)
 }
 }
 
-parenthesis.validity("test [] dummy ()[{[]}")
+parenthesis.validity("enter sentence here")
